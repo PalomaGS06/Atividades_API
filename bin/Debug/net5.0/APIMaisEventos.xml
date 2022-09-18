@@ -1,0 +1,121 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>APIMaisEventos</name>
+    </assembly>
+    <members>
+        <member name="M:APIMaisEventos.Controllers.CategoriaController.Cadastrar(APIMaisEventos.Models.Categorias,Microsoft.AspNetCore.Http.IFormFile)">
+            <summary>
+            Cadastra as categorias do evento
+            </summary>
+            <param name="categorias">Categorias presentes</param>
+            <param name="arquivo"></param>
+            <returns>Dados das categorias cadastradas</returns>
+        </member>
+        <member name="M:APIMaisEventos.Controllers.CategoriaController.Listar">
+            <summary>
+            Lista todas as categorias da aplicação
+            </summary>
+            <returns>Lista de Categorias</returns>
+        </member>
+        <member name="M:APIMaisEventos.Controllers.CategoriaController.Alterar(System.Int32,APIMaisEventos.Models.Categorias)">
+            <summary>
+            Altera uma categoria
+            </summary>
+            <param name="id"> Id da categoria</param>
+            <param name="categoria"> Todas as categorias contidas</param>
+            <returns>Categoria Alterada!</returns>
+        </member>
+        <member name="M:APIMaisEventos.Controllers.CategoriaController.Deletar(System.Int32)">
+            <summary>
+            Exclui uma categoria contida no evento
+            </summary>
+            <param name="id">Id da Categoria</param>
+            <returns>Mensagem de exclusão</returns>
+        </member>
+        <member name="M:APIMaisEventos.Controllers.EventosController.Cadastrar(APIMaisEventos.Models.Eventos)">
+            <summary>
+            Cadastra os eventos
+            </summary>
+            <param name="eventos">Informações dos eventos disponíveis</param>
+            <returns>Dados dos eventos cadastrados</returns>
+        </member>
+        <member name="M:APIMaisEventos.Controllers.EventosController.Listar">
+            <summary>
+            Lista todos os eventos da aplicação
+            </summary>
+            <returns>Lista de Eventos</returns>
+        </member>
+        <member name="M:APIMaisEventos.Controllers.EventosController.Alterar(System.Int32,APIMaisEventos.Models.Eventos)">
+            <summary>
+            Altera um evento
+            </summary>
+            <param name="id"> Id do evento</param>
+            <param name="evento">Todos os Eventos existentes</param>
+            <returns>Evento Alterado!</returns>
+        </member>
+        <member name="M:APIMaisEventos.Controllers.EventosController.Deletar(System.Int32)">
+            <summary>
+            Exclui um evento
+            </summary>
+            <param name="id">Id do Evento </param>
+            <returns>Mensagem de remoção</returns>
+        </member>
+        <member name="M:APIMaisEventos.Controllers.UsuarioEventoController.Cadastrar(APIMaisEventos.Models.UsuarioEvento)">
+            <summary>
+            Cadastra usuários e eventos
+            </summary>
+            <param name="usuarioEvento">Id do usuário e do evento</param>
+            <returns> Registros dos usuários e eventos cadastrados</returns>
+        </member>
+        <member name="M:APIMaisEventos.Controllers.UsuarioEventoController.Listar">
+            <summary>
+            Lista todos os usuários e eventos da aplicação
+            </summary>
+            <returns>Lista do usuários e eventos</returns>
+        </member>
+        <member name="M:APIMaisEventos.Controllers.UsuarioEventoController.Alterar(System.Int32,APIMaisEventos.Models.UsuarioEvento)">
+            <summary>
+            Altera os dados de um usuario e/ou de um evento
+            </summary>
+            <param name="id"> Ids do usuário e evento</param>
+            <param name="usuariosEventos">Todas as informações do usuário e dos eventos</param>
+            <returns>Usuário e Evento Alterados!</returns>
+        </member>
+        <member name="M:APIMaisEventos.Controllers.UsuarioEventoController.Deletar(System.Int32)">
+            <summary>
+            Exclui um usuário ou evento da aplicação
+            </summary>
+            <param name="id">Id do usuário e Id do evento</param>
+            <returns>Mensagem de exclusão</returns>
+        </member>
+        <member name="M:APIMaisEventos.Controllers.UsuariosController.Cadastrar(APIMaisEventos.Models.Usuario,Microsoft.AspNetCore.Http.IFormFile)">
+            <summary>
+            Cadastra usuários na aplicação
+            </summary>
+            <param name="usuario">Dados dos usuários</param>
+            <returns>Dados do usuário cadastrado</returns>
+        </member>
+        <member name="M:APIMaisEventos.Controllers.UsuariosController.Listar">
+            <summary>
+            Lista todos os usuários da aplicação
+            </summary>
+            <returns>Lista do usuário</returns>
+        </member>
+        <member name="M:APIMaisEventos.Controllers.UsuariosController.Alterar(System.Int32,APIMaisEventos.Models.Usuario)">
+            <summary>
+            Altera os dados de um usuario
+            </summary>
+            <param name="id"> Id do usuário</param>
+            <param name="usuario">Todas as informações do usuário</param>
+            <returns>Usuário Alterado!</returns>
+        </member>
+        <member name="M:APIMaisEventos.Controllers.UsuariosController.Deletar(System.Int32)">
+            <summary>
+            Exclui um usuário da aplicação
+            </summary>
+            <param name="id">Id do usuário</param>
+            <returns>Mensagem de exclusão</returns>
+        </member>
+    </members>
+</doc>
